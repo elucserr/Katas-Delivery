@@ -1,0 +1,12 @@
+function squareDigits(num) {
+ var digitOne = String(num);
+ var digitTwo = "";
+ 
+ for (i = 0; i <= digitOne.length-1; i++){
+   digitTwo += digitOne[i]*digitOne[i];
+ }
+ 
+   return Number(digitTwo);
+ }
+ 
+squareDigits(9119)
